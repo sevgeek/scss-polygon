@@ -1,2 +1,41 @@
-// Color's
-$background-color: green;
+// CSS Variables
+
+	/*
+		Main Variables
+	*/
+	$font-family: sans-serif;
+	$headers-font-family: sans-serif;
+	$transition: .4s cubic-bezier(.23,1,.32,1);
+
+	/*
+		Margin and Padding's Variables
+	*/
+	$margin-step: 4px;
+	$padding-step: 4px;
+
+	/*
+		Colors Variables
+	*/
+
+	/*
+		CSS Grid Variables
+	*/
+	$grid-step: 4px;
+
+	$grid-col-gap-xs:	$grid-step;
+	$grid-col-gap-s:	calc($grid-step * 2);
+	$grid-col-gap-m:	calc($grid-step * 3);
+	$grid-col-gap-l:	calc($grid-step * 4);
+	$grid-col-gap-xl:	calc($grid-step * 6);
+	$grid-col-gap-2xl:	calc($grid-step * 8);
+	$grid-col-gap-3xl:	calc($grid-step * 10);
+	$grid-col-gap-4xl:	calc($grid-step * 14);
+
+	$grid-row-gap-xs:	$grid-step;
+	$grid-row-gap-s:	calc($grid-step * 2);
+	$grid-row-gap-m:	calc($grid-step * 3);
+	$grid-row-gap-l:	calc($grid-step * 4);
+	$grid-row-gap-xl:	calc($grid-step * 6);
+	$grid-row-gap-2xl:	calc($grid-step * 8);
+	$grid-row-gap-3xl:	calc($grid-step * 10);
+	$grid-row-gap-4xl:	calc($grid-step * 14);
