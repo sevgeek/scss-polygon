@@ -1,2 +1,85 @@
-// Color's
-$background-color: green;
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+// CSS Variables
+
+/*
+	Main Variables
+*/
+$font-family: sans-serif;
+$headers-font-family: sans-serif;
+$transition: .4s cubic-bezier(.23,1,.32,1);
+
+/*
+	Margin and Padding's Variables
+*/
+$margin-step: 4px;
+$padding-step: 4px;
+
+/*
+	Colors Variables
+*/
+	// Yandex Color Cube
+	$white: #ffffff;
+	$ebony_clay: #272d45;
+	$silver_sand: #bbbcbd;
+	$jumbo: #79797a;
+	$punch: #d7422a;
+	$california: #fba202;
+	$atomic_tangerina: #fda16d;
+	$maroon: #850101;
+	$purple_heart: #5040d5;
+	$atlantis: #88c736;
+
+	// Yandex Median Cut
+	$desert_storm: #f0f0ef;
+	$ebony_clay_2: #282f46;
+	$grangy_roughy: #d24b1b;
+	$fuel_yellow: #eaaa2b;
+	$manatee: #999a9d;
+
+	// Yandex Material Design
+	$buttercup: #f0b212;
+	$manatee_2: #9d9d9f;
+	$sanguine_brown: #8b3935;
+	$ebony_clay_3: #242c43;
+	$putty: #ebcc9b;
+/*
+	CSS Grid Variables
+*/
+$grid-step: 4px;
+
+$grid-col-gap-xs:	$grid-step;
+$grid-col-gap-s:	$grid-step * 2;
+$grid-col-gap-m:	$grid-step * 3;
+$grid-col-gap-l:	$grid-step * 4;
+$grid-col-gap-xl:	$grid-step * 6;
+$grid-col-gap-2xl:	$grid-step * 8;
+$grid-col-gap-3xl:	$grid-step * 10;
+$grid-col-gap-4xl:	$grid-step * 14;
+
+$grid-row-gap-xs:	$grid-step;
+$grid-row-gap-s:	$grid-step * 2;
+$grid-row-gap-m:	$grid-step * 3;
+$grid-row-gap-l:	$grid-step * 4;
+$grid-row-gap-xl:	$grid-step * 6;
+$grid-row-gap-2xl:	$grid-step * 8;
+$grid-row-gap-3xl:	$grid-step * 10;
+$grid-row-gap-4xl:	$grid-step * 14;
