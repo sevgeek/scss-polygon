@@ -1,2 +1,2 @@
 # scss-polygon
-SCSS Learning Repository
+SCSS Start Kit Repository
