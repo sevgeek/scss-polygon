@@ -3,6 +3,7 @@
 /*
 	Main Variables
 */
+$step: 4px;
 $font-family: '', sans-serif;
 $headers-font-family: sans-serif;
 $transition: .4s cubic-bezier(.23,1,.32,1);
@@ -10,170 +11,17 @@ $transition: .4s cubic-bezier(.23,1,.32,1);
 /*
 	Margin and Padding's Variables
 */
-$margin-step: 4px;
-$padding-step: 4px;
+$margin-step: $step;
+$padding-step: $step;
 
 /*
 	Colors Variables
 */
 
 /*
-	Base
-	Базовые (основные) цвета
-*/
-	// Color Family
-	// Strong
-	$color-base-strong: ;
-		// Shift: сдвиг цвета
-		$color-faint-base-up: ;
-		$color-faint-base-down: ;
-	// Weak
-	$color-base-weak: ;
-		// Shift: сдвиг цвета
-		$color-base-weak-up: ;
-		$color-base-weak-down: ;
-	// Context: цвета для фона, текста, линий и иконок
-	$color-base-back: ;
-	$color-base-text: ;
-	$color-base-line: ;
-	$color-base-icon: ;
-
-/*
-	Faint
-	Оттенки серого
-*/
-$color-faint: ;
-	// Color Family
-	// Strong
-	$color-faint-strong: ;
-		// Shift: сдвиг цвета
-		$color-faint-strong-up: ;
-		$color-faint-strong-down: ;
-	// Weak
-	$color-faint-weak: ;
-		// Shift: сдвиг цвета
-		$color-faint-weak-up: ;
-		$color-faint-weak-down: ;
-	// Context: цвета для фона, текста, линий и иконок
-	$color-faint-back: ;
-	$color-faint-text: ;
-	$color-faint-line: ;
-	$color-faint-icon: ;
-
-/*
-	Accent
-	Главный (акцентный) цвет
-*/
-$color-accent: ;
-	// Color Family
-	// Strong
-	$color-accent-strong: ;
-		// Shift: сдвиг цвета
-		$color-accent-strong-up: ;
-		$color-accent-strong-down: ;
-	// Weak
-	$color-accent-weak: ;
-		// Shift: сдвиг цвета
-		$color-accent-weak-up: ;
-		$color-accent-weak-down: ;
-	// Context: цвета для фона, текста, линий и иконок
-	$color-accent-back: ;
-	$color-accent-text: ;
-	$color-accent-line: ;
-	$color-accent-icon: ;
-
-/*
-	Complement
-	Дополнительный главный (акцентный) цвет
-*/
-$color-compl: ;
-	// Color Family
-	// Strong
-	$color-compl-strong: ;
-		// Shift: сдвиг цвета
-		$color-compl-strong-up: ;
-		$color-compl-strong-down: ;
-	// Weak
-	$color-compl-weak: ;
-		// Shift: сдвиг цвета
-		$color-compl-weak-up: ;
-		$color-compl-weak-down: ;
-	// Context: цвета для фона, текста, линий и иконок
-	$color-compl-back: ;
-	$color-compl-text: ;
-	$color-compl-line: ;
-	$color-compl-icon: ;
-
-/*
-	Critic
-	Ошибки
-*/
-$color-critic: ;
-	// Color Family
-	// Strong
-	$color-critic-strong: ;
-		// Shift: сдвиг цвета
-		$color-critic-strong-up: ;
-		$color-critic-strong-down: ;
-	// Weak
-	$color-critic-weak: ;
-		// Shift: сдвиг цвета
-		$color-critic-weak-up: ;
-		$color-critic-weak-down: ;
-	// Context: цвета для фона, текста, линий и иконок
-	$color-critic-back: ;
-	$color-critic-text: ;
-	$color-critic-line: ;
-	$color-critic-icon: ;
-
-/*
-	Warning
-	Предупреждения
-*/
-$color-warning: ;
-	// Color Family
-	// Strong
-	$color-warning-strong: ;
-		// Shift: сдвиг цвета
-		$color-warning-strong-up: ;
-		$color-warning-strong-down: ;
-	// Weak
-	$color-warning-weak: ;
-		// Shift: сдвиг цвета
-		$color-warning-weak-up: ;
-		$color-warning-weak-down: ;
-	// Context: цвета для фона, текста, линий и иконок
-	$color-warning-back: ;
-	$color-warning-text: ;
-	$color-warning-line: ;
-	$color-warning-icon: ;
-
-/*
-	Success
-	Успешное выполнение
-*/
-$color-success: ;
-	// Color Family
-	// Strong
-	$color-success-strong: ;
-		// Shift: сдвиг цвета
-		$color-success-strong-up: ;
-		$color-success-strong-down: ;
-	// Weak
-	$color-success-weak: ;
-		// Shift: сдвиг цвета
-		$color-success-weak-up: ;
-		$color-success-weak-down: ;
-	// Context: цвета для фона, текста, линий и иконок
-	$color-success-back: ;
-	$color-success-text: ;
-	$color-success-line: ;
-	$color-success-icon: ;
-
-/*
 	CSS Grid Variables
 */
-$grid-step: 4px;
+$grid-step: $step;
 
 $grid-col-gap-xs:	$grid-step;
 $grid-col-gap-s:	$grid-step * 2;

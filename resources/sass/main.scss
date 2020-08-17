@@ -2,7 +2,8 @@
 @import 'variables';
 
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
+	-webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -25,9 +26,3 @@ body {
 ::after, ::before {
     box-sizing: border-box;
 }
-
-// @font-face {
-// 	font-family: ;
-// 	src: local(""), url();
-// 	font-display: swap;
-// }
