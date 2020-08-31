@@ -1,2 +1,2 @@
-# scss-polygon
-SАSS Start Kit Repository
+# scss
+Начальный стэк SASS для разработки
