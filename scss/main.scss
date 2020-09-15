@@ -15,10 +15,10 @@ body {
 	overflow-x: hidden;
     font-kerning: normal;
 
-	text-rendering: optimizeLegibility;
+	text-align: left;
 	text-size-adjust: 100%;
 	font-family: $font-family;
-	text-align: left;
+	text-rendering: optimizeLegibility;
 }
 
 ::after, ::before {
